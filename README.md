@@ -11,3 +11,4 @@ Currently, two official plugins are available:
 # b8a12-client-side-Amimu10
 # b8a12-client-side-Amimu10
 # b8a12-client-side-Amimu10
+# b8a12-client-side-Amimu10
