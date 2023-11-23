@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 # react-tailwind-boilerplate-
 # b8a12-client-side-Amimu10
 # b8a12-client-side-Amimu10
+# b8a12-client-side-Amimu10
