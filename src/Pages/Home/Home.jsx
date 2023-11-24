@@ -1,9 +1,19 @@
+import { Helmet } from "react-helmet-async";
+import Banner from "./Banner/Banner";
+import Services from "../Services/Services";
+import Products from "../Products/Products";
+import Testimonial from "./Testimonial/Testimonial";
 
-const Home = () => {
+const Home = () => { 
     return (
         <div>
-            <h3>This is home</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit omnis deleniti dignissimos, sit tenetur recusandae odio ipsa iste deserunt? Rem repellat in deserunt minus odit hic incidunt dolores nesciunt minima officia necessitatibus ab vero perspiciatis, facere cum blanditiis natus ut harum soluta voluptatum ratione pariatur commodi enim! Aliquam, quos voluptatibus.</p>
+            <Helmet>
+           <title>Tech-Buddy | Home</title>  
+            </Helmet> 
+            <Banner ></Banner> 
+            <Products></Products>
+            <Services></Services>
+            <Testimonial></Testimonial>
         </div>
     );
 };
